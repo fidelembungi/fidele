@@ -27,6 +27,9 @@ SET time_zone = "+00:00";
 -- Structure de la table `cards`
 --
 
+create database prototype;
+use prototype;
+
 CREATE TABLE `cards` (
   `id` int(11) NOT NULL,
   `titre` varchar(150) NOT NULL,
